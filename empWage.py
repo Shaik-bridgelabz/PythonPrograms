@@ -4,7 +4,11 @@ isPresent=1
 randomCheck=random.randint(0,1)
 
 if(isPresent == randomCheck):
-	print("Employee Present ")
+	empRatePerHr=200;
+	empHrs=8;
+	salary=( empHrs * empRatePerHr )
 else:
-	print("Employee Absent ")
+	salary=0
+
+print (salary)
 
